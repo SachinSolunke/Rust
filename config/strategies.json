@@ -1,0 +1,16 @@
+{
+  "S3_Full_7D": {
+    "model": "RandomForest",
+    "lookback": 7,
+    "features": [
+      "Open",
+      "Close",
+      "Jodi_Total",
+      "Jodi_Diff",
+      "Day_of_Week",
+      "Open_Pana_Type_Code",
+      "Close_Pana_Type_Code"
+    ],
+    "description": "The only strategy needed for the Hunter Engine."
+  }
+}
